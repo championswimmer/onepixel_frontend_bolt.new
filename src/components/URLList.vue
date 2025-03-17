@@ -53,7 +53,7 @@ import { Copy, Info } from 'lucide-vue-next';
 import { useUrlStore } from '../stores/urls';
 import type { UrlResponse, UrlInfoResponse } from '../types/api';
 
-const props = defineProps<{
+defineProps<{
   urls: UrlResponse[]
 }>();
 
